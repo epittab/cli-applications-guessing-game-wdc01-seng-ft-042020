@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   
-  random_num = rand(6)+1
+  random_num = rand(6) + 1
   puts "Guess a number: "
   input = gets.chomp
   
