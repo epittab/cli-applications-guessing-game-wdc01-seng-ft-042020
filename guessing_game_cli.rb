@@ -7,6 +7,7 @@ def run_guessing_game
   puts "Guess a number: "
   input = gets.chomp
   binding.pry
+  
   if (random_num == input)
     puts "You guessed the correct number!"
   elsif (input == 'exit')
