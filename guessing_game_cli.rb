@@ -5,4 +5,7 @@ def run_guessing_game
   puts "Guess a number"
   user_guess = gets.chomp
   
+  if (random_num == user_guess)
+    puts ""
+  
 end
